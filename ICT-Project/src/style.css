@@ -1,0 +1,127 @@
+nav .navbar-brand {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+}
+
+nav .navbar-brand:hover {
+  transform: scale(1.1);
+  text-shadow: 1px 2px 3px white;
+}
+
+nav .nav-link {
+  font-family: "Oswald", sans-serif;
+  font-size: 23px;
+}
+
+nav .nav-link:hover {
+  transform: scale(1.1);
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url(/images/the-expanse3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 350px 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+.hero h2 {
+  font-size: 55px;
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-size: 140px;
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+}
+
+h2 {
+  font-size: 96px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 65px;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Noto Sans Kawi", sans-serif;
+}
+
+.card {
+  margin: 100px;
+}
+
+.card-body p {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.card-body footer {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.cast-imgs img {
+  border-radius: 10px;
+}
+
+.character-section .cast-section p {
+  border-left: 4px solid black;
+}
+
+.cast-section p:hover {
+  border-left: 4px solid white;
+}
+
+.character-section:hover {
+  background-color: rgb(14, 13, 13);
+  color: white;
+  cursor: pointer;
+}
+
+.cast-section h3:hover {
+  transform: scale(1.25) translateY(-45px);
+}
+
+.video-section small {
+  display: block;
+  text-align: center;
+  font-family: "Noto Sans Kawi", sans-serif;
+  font-size: 20px;
+}
+
+.main-groups-video-grid {
+  background-color: rgb(14, 13, 13);
+  padding: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+}
+
+.about-me-section h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 37px;
+}
+
+.about-me-section p {
+  font-family: "Noto Sans Kawi", sans-serif;
+  font-size: 19px;
+}
