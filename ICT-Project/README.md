@@ -1,20 +1,171 @@
-The Expanse Website
-* Sections for the cast turn dark as you hover them.
-![the-expanse-website-pic-1](https://github.com/ASV185/the-expanse-website/assets/74805696/ce4ffda6-d957-456b-879d-b34731d14db6)
-![the-expanse-website-pic-2](https://github.com/ASV185/the-expanse-website/assets/74805696/b803dad0-2177-44d4-9b7d-2f664f23fc61)
-![the-expanse-website-pic 3](https://github.com/ASV185/the-expanse-website/assets/74805696/88de2673-33a3-4a46-bcce-b71964464e4b)
-![the-expanse-website-pic-4](https://github.com/ASV185/the-expanse-website/assets/74805696/589a3576-05bb-48d6-adea-5caf6d829a04)
-![the-expanse-website-pic-5](https://github.com/ASV185/the-expanse-website/assets/74805696/faaaab4c-3b0f-41f1-b5ea-8e804ca72672)
-![the-expanse-website-pic-6](https://github.com/ASV185/the-expanse-website/assets/74805696/b8b7ede3-619c-4576-8f64-9b47c26cc5f6)
-![the-expanse-website-pic-7](https://github.com/ASV185/the-expanse-website/assets/74805696/0f7a9775-f112-4d0c-9bbb-cd7a98485af2)
-![the-expanse-website-pic-8](https://github.com/ASV185/the-expanse-website/assets/74805696/cb2c3333-81b7-4d31-8a36-4a33d4480a2e)
-![the-expanse-website-pic-9](https://github.com/ASV185/the-expanse-website/assets/74805696/5311d73c-ff75-4c3d-a60e-c1c06397a402)
-![the-expanse-website-pic-10](https://github.com/ASV185/the-expanse-website/assets/74805696/d24ef07d-a93b-4841-89ad-4ea7d1ecf59d)
-![the-expanse-website-pic-11](https://github.com/ASV185/the-expanse-website/assets/74805696/2a309469-7f1f-468a-a7e5-89062dd5d922)
-![the-expanse-website-pic-12](https://github.com/ASV185/the-expanse-website/assets/74805696/52e6a840-70db-4350-a2a5-b4620b3b125f)
-![the-expanse-website-pic-13](https://github.com/ASV185/the-expanse-website/assets/74805696/b56d84bd-9073-4c11-83f3-cbab3dcd1f05)
-![the-expanse-website-pic-14](https://github.com/ASV185/the-expanse-website/assets/74805696/d6c60353-dcd5-4377-b51c-65175c0dd7eb)
-![the-expanse-website-pic-15](https://github.com/ASV185/the-expanse-website/assets/74805696/b8a71d36-61af-4a97-b2d5-b71bb85a34cb)
-![the-expanse-website-pic-16](https://github.com/ASV185/the-expanse-website/assets/74805696/c37c2e8b-aacb-43aa-9211-49bc7b3ba914)
+<!DOCTYPE html>
+<html lang="en">
 
-Website: https://theexpanse-site.netlify.app/
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kawi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" type="text/css">
+    <title>Website ni Ablay</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong position-absolute">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                ICT
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- NAV BAR TO!! -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about-section">ICT in Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cast2">Digital World</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#e-learning">E-Learning Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#policy">Policy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#LearningIn">Learning Innovation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Promotion">ICT in Education</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="the-expanse-heading position-relative">
+            <h2 class="text-start position-absolute top-0 start-0 p-2">Concept of ICT in</h2>
+            <h1 class="text-start position-absolute top-0 start-0 p-5">Education</h1>
+        </div>
+    </header>
+    <section class="about-section" id="about-section">
+        <div class="container mt-5 ms-4 border-start border border-black border border-2 rounded">
+            <h2 class="text-center p-5">ICT in Education</h2>
+            <div class="row">
+                <div class="col-6 mb-3">
+                    <img src="images new/ICT.png" alt="the solar system"
+                        class="the-solar-system img-fluid rounded">
+                </div>
+                <!-- First Section -->
+                <div class="col-6 d-flex align-items-start p-3">
+                    <p>
+                        <b>ICT</b> in education refers to the integration of digital technologies, communication tools, 
+                        and information systems to improve information access, 
+                        facilitate communication and collaboration, provide online learning opportunities, and transform 
+                        traditional teaching and learning practices to create a more dynamic and inclusive educational experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cast-section" id="cast2">
+        <section>
+            <div class="row p-5 shadow p-3 mb-5 rounded character-section">
+                <div class="col-5 cast-imgs">
+                    <img src="images new/DigitalWorld.jpg" alt="Holden actor" class="img-fluid p-5">
+                </div>
+                <!-- Second Section -->
+                <div class="col-5 cast-section d-flex align-items-start pt-5 mt-3">
+                    <h3 class="p-4">Digital World</h3>
+                    <p class="p-2">
+                        Digital education in the country relies on platforms like Google Classroom and Microsoft Teams, 
+                        supported by government initiatives for centralized Learning Management Systems. 
+                        Despite challenges in internet connectivity, particularly in remote areas, mobile learning is 
+                        prevalent due to widespread smartphone use. Numerous e-learning resources and professional 
+                        development opportunities are easily accessible online.
+                    </p>
+                </div>
+            </div>
+            <!-- Third Section -->
+            <section class="about-section" id="e-learning"></section>
+            <div class="row p-5 shadow p-3 mb-5 rounded character-section">
+                <div class="col-5 cast-section d-flex align-items-center">
+                    <h3 class="p-4">E-Learning Tools</h3>
+                    <p class="p-2">
+                        E-learning tools are software or applications designed to facilitate online learning, 
+                        encompassing platforms, resources, and technologies that enable digital education.
+                    </p>
+                </div>
+                <div class="col-5 cast-imgs">
+                    <img src="images new/Elearning.webp" alt="Naomi actor" class="img-fluid p-3">
+                </div>
+            </div>
+            </section>
+
+            <!-- Fourth Section -->
+            <section class="about-section" id="policy"></section>
+            <div class="row p-5 shadow p-3 mb-5 rounded character-section">
+                <div class="col-5 cast-imgs">
+                    <img src="images new/ICT-Policy.jpg" alt="Amos actor" class="img-fluid p-5">
+                </div>
+                <div class="col-5 cast-section d-flex align-items-center">
+                    <h3 class="p-4">Policy in ICT</h3>
+                    <p class="p-2">
+                        My personal ICT policy establishes guidelines for the responsible and ethical use 
+                        of technology resources, emphasizing data security, privacy, and lawful conduct 
+                        to ensure efficient utilization and maintain a secure digital environment.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Fifth Section -->
+            <section class="about-section" id="learningIn"></section>
+            <div class="row p-5 shadow p-3 mb-5 rounded character-section">
+                <div class="col-5 cast-section d-flex align-items-center">
+                    <h3 class="p-4">Learning Innovation</h3>
+                    <p class="p-2">
+                        Continuous learning and innovation are critical in developing career 
+                        skills and fostering effective communication in a rapidly changing 
+                        professional landscape.
+                    </p>
+                </div>
+                <div class="col-5 cast-imgs">
+                    <img src="images new/developer.webp" alt="Alex actor" class="img-fluid p-5">
+                </div>
+            </div>
+
+            <!-- Sixth Section -->
+            <div class="row p-5 shadow p-3 mb-5 rounded character-section">
+                <div class="col-6 cast-imgs">
+                    <img src="images new/ICT edu.png" alt="Chrisjen actor" class="img-fluid p-5">
+                </div>
+                <section class="about-section" id="Promotion"></section>
+                <div class="col-6 cast-section d-flex align-items-center">
+                    <h3 class="p-4">ICT Promotion in Education</h3>
+                    <p class="p-2">
+                        Promoting ICT integration improves education quality by leveraging technology 
+                        to enable interactive learning, access to diverse educational resources, and effective 
+                        communication throughout the educational process.
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
