@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kawi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" type="text/css">
+    <title>Website ni Ablay</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong position-absolute">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                ICT
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- NAV BAR TO!! -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about-section">ICT in Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cast2">Digital World</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#e-learning">E-Learning Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#policy">Policy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#LearningIn">Learning Innovation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Promotion">ICT in Education</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="the-expanse-heading position-relative">
+            <h2 class="text-start position-absolute top-0 start-0 p-2">Concept of ICT in</h2>
+            <h1 class="text-start position-absolute top-0 start-0 p-5">Education</h1>
+        </div>
+    </header>
+    <section class="about-section" id="about-section">
+        <div class="container mt-5 ms-4 border-start border border-black border border-2 rounded">
+            <h2 class="text-center p-5">ICT in Education</h2>
+            <div class="row">
+                <div class="col-6 mb-3">
+                    <img src="images new/ICT.png" alt="the solar system"
+                        class="the-solar-system img-fluid rounded">
+                </div>
+                <!-- First Section -->
+                <div class="col-6 d-flex align-items-start p-3">
+                    <p>
+                        <b>ICT</b> in education refers to the integration of digital technologies, communication tools, 
+                        and information systems to improve information access, 
+                        facilitate communication and collaboration, provide online learning opportunities, and transform 
+                        traditional teaching and learning practices to create a more dynamic and inclusive educational experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cast-section" id="cast2">
+        <section>
+            <div class="row p-5 shadow p-3 mb-5 rounded character-section">
+                <div class="col-5 cast-imgs">
+                    <img src="images new/DigitalWorld.jpg" alt="Holden actor" class="img-fluid p-5">
+                </div>
+                <!-- Second Section -->
+                <div class="col-5 cast-section d-flex align-items-start pt-5 mt-3">
+                    <h3 class="p-4">Digital World</h3>
+                    <p class="p-2">
+                        Digital education in the country relies on platforms like Google Classroom and Microsoft Teams, 
+                        supported by government initiatives for centralized Learning Management Systems. 
+                        Despite challenges in internet connectivity, particularly in remote areas, mobile learning is 
+                        prevalent due to widespread smartphone use. Numerous e-learning resources and professional 
+                        development opportunities are easily accessible online.
+                    </p>
+                </div>
+            </div>
+            <!-- Third Section -->
+            <section class="about-section" id="e-learning"></section>
+            <div class="row p-5 shadow p-3 mb-5 rounded character-section">
+                <div class="col-5 cast-section d-flex align-items-center">
+                    <h3 class="p-4">E-Learning Tools</h3>
+                    <p class="p-2">
+                        E-learning tools are software or applications designed to facilitate online learning, 
+                        encompassing platforms, resources, and technologies that enable digital education.
+                    </p>
+                </div>
+                <div class="col-5 cast-imgs">
+                    <img src="images new/Elearning.webp" alt="Naomi actor" class="img-fluid p-3">
+                </div>
+            </div>
+            </section>
+
+            <!-- Fourth Section -->
+            <section class="about-section" id="policy"></section>
+            <div class="row p-5 shadow p-3 mb-5 rounded character-section">
+                <div class="col-5 cast-imgs">
+                    <img src="images new/ICT-Policy.jpg" alt="Amos actor" class="img-fluid p-5">
+                </div>
+                <div class="col-5 cast-section d-flex align-items-center">
+                    <h3 class="p-4">Policy in ICT</h3>
+                    <p class="p-2">
+                        My personal ICT policy establishes guidelines for the responsible and ethical use 
+                        of technology resources, emphasizing data security, privacy, and lawful conduct 
+                        to ensure efficient utilization and maintain a secure digital environment.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Fifth Section -->
+            <section class="about-section" id="learningIn"></section>
+            <div class="row p-5 shadow p-3 mb-5 rounded character-section">
+                <div class="col-5 cast-section d-flex align-items-center">
+                    <h3 class="p-4">Learning Innovation</h3>
+                    <p class="p-2">
+                        Continuous learning and innovation are critical in developing career 
+                        skills and fostering effective communication in a rapidly changing 
+                        professional landscape.
+                    </p>
+                </div>
+                <div class="col-5 cast-imgs">
+                    <img src="images new/developer.webp" alt="Alex actor" class="img-fluid p-5">
+                </div>
+            </div>
+
+            <!-- Sixth Section -->
+            <div class="row p-5 shadow p-3 mb-5 rounded character-section">
+                <div class="col-6 cast-imgs">
+                    <img src="images new/ICT edu.png" alt="Chrisjen actor" class="img-fluid p-5">
+                </div>
+                <section class="about-section" id="Promotion"></section>
+                <div class="col-6 cast-section d-flex align-items-center">
+                    <h3 class="p-4">ICT Promotion in Education</h3>
+                    <p class="p-2">
+                        Promoting ICT integration improves education quality by leveraging technology 
+                        to enable interactive learning, access to diverse educational resources, and effective 
+                        communication throughout the educational process.
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
